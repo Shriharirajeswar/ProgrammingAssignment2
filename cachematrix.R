@@ -4,7 +4,8 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+  
+    ## The matrix to be inverted is written here
   inv<-NULL
   set<-function(y){
     x<<-y
